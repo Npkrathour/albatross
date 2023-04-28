@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.about-page{
+	background-image: url(images/svg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+.about-image{
+	
+	
+}
+.about-button{
+	border: 2px solid #fff;
+	color: black;
+	background-color: white;
+	padding: 6px 20px;
+	font-size: 20px;
+	font-weight: 400;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+.about-button:hover{
+	background: transparent;
+	color: white;
+	border: 2px solid white;
+}
+/*******************************Heading********************************************************************/
+.about-heading{
+	font-size: 60px;
+	font-weight: 600;
+}
+.about-heading-3{
+	font-weight: 600;
+	font-size: 40px;
+}
+@media screen and (max-width: 992px){
+	.about-heading{
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: 600;
+	}
+}
+/****************************************************************page -2***************************************/
+.about-page-1{
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: auto;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0273E6 0%, #028EDB 100%);
+}
+.about-page-2{
+	background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: auto;
+	background-color: transparent;
+   background-image: linear-gradient(180deg, #028EDB 0%, #00C4C3 100%);
+   
+}
